@@ -1,5 +1,4 @@
 // Kotlin權威2.0 Ch21的範例，用Google鏡頭自己組出來的程式碼。大致可行。
-// 測試。
 
 package com.bignerdranch.android
 

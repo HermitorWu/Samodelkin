@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions' //這行好像是我自己加的。
+    id 'kotlin-android-extensions' //這行好像是我自己加的。解決import kotlinx.android.synthetic.main.activity_main.*的「kotlinx」紅字問題。
 }
 
 android {
