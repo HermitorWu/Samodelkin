@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_new_character)
+        setContentView(R.layout.activity_new_character) // 配合書本附的xml改名。
 
         characterData = savedInstanceState?.characterData ?: CharacterGenerator.generate()
 
